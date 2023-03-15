@@ -1,0 +1,121 @@
+@charset "UTF8";
+body {
+    background-color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+#documento{
+    margin: 0 auto;
+    padding: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #aec1ff;
+    width: 60%;   
+}
+#cabecera{
+    background-color: #faec31;
+    padding: 5px;
+}
+#cabecera #logo{
+    width: 75px;
+    height: 50px;
+    background-color: #ffff99;
+}
+#cabecera #titulo{
+    font-size: 1.3em;
+    font-style: italic;
+    background-color: #ffff99;
+}
+#titulo{
+    background-color: #ffff99;
+    text-align: center;
+    font-size: 50px;
+}
+
+#imgIni{
+    width: 30px;
+    height: 30px;
+
+}
+#link{
+    color: #ffff99;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+.boton{
+    background-color: blue;
+    color:white;
+    border:thin black solid;
+}
+.boton a{
+    text-decoration: none;
+    color:white;
+}
+.boton a:visited{ 
+    text-decoration: none;
+    color:white;
+}
+.boton a:hover{
+    background-color:cyan;
+    color: black;
+}
+.boton:hover{
+    background-color:cyan;
+    color: black;
+}
+.tabla{
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    background-color: white;
+}
+.tabla th{
+    background-color: teal;
+    color: blue;
+}
+.tabla tr.par{
+    background-color: black;
+    color: white;
+}
+.tabla tr.impar{
+    background-color: black;
+    color: white;
+}
+#pie{
+    background-color: #e7b614;
+    color: blue;
+    font-size: 1.5 em;
+    padding: 5px;
+}
+.for_texto{
+    border:blue thin solid;
+    background-color: white;
+    padding: 2px;
+    margin:2px;
+    border-radius: 4px;
+}
+.error{ 
+    background-color: white;
+    color:red;
+    border:thin solid red;
+    padding:5px;
+} 
+
+ 
+ /*  align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 200px;*/
+  
+    
+    /*color: #333;*/
+
+
